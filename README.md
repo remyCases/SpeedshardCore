@@ -34,13 +34,14 @@ A [video](https://www.youtube.com/watch?v=_J0oJYGi38E&t=13s&ab_channel=Nylux) wa
 ### Using MSL
 
 - Move the `Speedshard_Core.sml` in the `MSL/Mods` folder.
-- Run `ModShardLauncher.exe`
+- Run `ModShardLauncher.exe`.
 - Click on the anvil icon on the leftside.
 - Click on the folder icon on the topside. A dialog box should pop up.
 - Select the `.win` file in the Stoneshard folder (`data.win` if you didn't rename it).
 - Enable the mod by checking the `Enable` box.
 - Click the floppy disk icon on the topside. A dialog box should pop up.
 - In this dialog box, create a new `.win` file and save (`data.win` if you didn't rename it).
+- Move the `speedshard.ini` file in the Stoneshard folder.
 
 You can now play the game with the modded version !
 
