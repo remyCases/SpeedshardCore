@@ -1,6 +1,6 @@
 ﻿// Copyright (C) 2024 Rémy Cases
 // See LICENSE file for extended copyright information.
-// This file is part of the Speedshard repository from https://github.com/remyCases/Speedshard.
+// This file is part of the Speedshard repository from https://github.com/remyCases/SpeedshardCore.
 
 using ModShardLauncher;
 using ModShardLauncher.Mods;
@@ -13,6 +13,7 @@ public class SpeedshardCore : Mod
     public override string Name => "Speedshard - Core";
     public override string Description => "Core functionalities of Speedshard";
     public override string Version => "1.0.0.0";
+    public override string TargetVersion => "0.8.2.10";
 
     public override void PatchMod()
     {

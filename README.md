@@ -15,7 +15,7 @@ This mod encapsulate the core functionalities of the original Speedshard:
 - Austerity gives extra turns of vigor
 - Ini file to customize your speedshard experience
 
-Other functionalities can be found in Speedshard_Sprint, Speedshard_Backpack, Speedshard_Skinning, Speedshard_MoneyDungeons and Speedshard_Stances *(to be soon released)*.
+Other functionalities can be found in [Speedshard_Sprint](https://github.com/remyCases/SpeedshardSprint), [Speedshard_Backpack](https://github.com/remyCases/SpeedshardBackpack), Speedshard_Skinning, [Speedshard_MoneyDungeon](https://github.com/remyCases/SpeedshardMoneyDungeon) and Speedshard_Stances *(to be soon released)*.
 
 ## Installation
 
@@ -33,6 +33,7 @@ A [video](https://www.youtube.com/watch?v=_J0oJYGi38E&t=13s&ab_channel=Nylux) wa
 
 ### Using MSL
 
+- Download the lastest `.sml` file released of [Speedshard - Core](https://github.com/remyCases/SpeedshardCore/releases).
 - Move the `Speedshard_Core.sml` in the `MSL/Mods` folder.
 - Run `ModShardLauncher.exe`.
 - Click on the anvil icon on the leftside.
