@@ -15,7 +15,7 @@ This mod encapsulate the core functionalities of the original Speedshard:
 - Austerity gives extra turns of vigor
 - Ini file to customize your speedshard experience
 
-Other functionalities can be found in [Speedshard_Sprint](https://github.com/remyCases/SpeedshardSprint), [Speedshard_Backpack](https://github.com/remyCases/SpeedshardBackpack), [Speedshard_Skinning](https://github.com/remyCases/SpeedshardSkinning), [Speedshard_MoneyDungeon](https://github.com/remyCases/SpeedshardMoneyDungeon) and Speedshard_Stances *(to be released soon)*.
+Other functionalities can be found in [Speedshard_Sprint](https://github.com/remyCases/SpeedshardSprint), [Speedshard_Backpack](https://github.com/remyCases/SpeedshardBackpack), [Speedshard_Skinning](https://github.com/remyCases/SpeedshardSkinning), [Speedshard_MoneyDungeon](https://github.com/remyCases/SpeedshardMoneyDungeon) and [Speedshard_Stances](https://github.com/remyCases/SpeedshardStances).
 
 ## Installation
 
