@@ -9,7 +9,7 @@ This mod encapsulate the core functionalities of the original Speedshard:
 - An extra AP and SP every xth level
 - 4X speed included when pressing F4
 - Charges of water container increased
-- ﻿Campbed can last more days untouched without being destroyed and are not destroyed by use
+- Campbed can last more days untouched without being destroyed and are not destroyed by use
 - Hostile and Neutral spawn rate scaled with level
 - QuickSave on F5
 - Austerity gives extra turns of vigor
@@ -24,16 +24,16 @@ You can follow the official [installation guide](https://dddddragon.github.io/Mo
 
 A [video](https://www.youtube.com/watch?v=_J0oJYGi38E&t=13s&ab_channel=Nylux) was made by Nylux to show how to install Neoconsole, if you prefer a video guide.
 
-### installing MSL
+### Installing MSL
 
-- Download the lastest release of [MSL](https://github.com/DDDDDragon/ModShardLauncher).
+- Download the latest release of [MSL](https://github.com/DDDDDragon/ModShardLauncher).
 - Unzip it.
 - **Move the `ModShard.dll` file to your Stoneshard folder.**
 - (Optional) Rename the data.win file in the Stoneshard folder with an other name so you'll have a backup if something went wrong.
 
 ### Using MSL
 
-- Download the lastest `.sml` file released of [Speedshard - Core](https://github.com/remyCases/SpeedshardCore/releases).
+- Download the latest `.sml` file released of [Speedshard - Core](https://github.com/remyCases/SpeedshardCore/releases).
 - Move the `Speedshard_Core.sml` in the `MSL/Mods` folder.
 - Run `ModShardLauncher.exe`.
 - Click on the anvil icon on the leftside.
@@ -50,8 +50,13 @@ You can now play the game with the modded version !
 
 If you encountered some troubles while trying to patch your game, first check if you **move the `ModShard.dll`** in the Stoneshard folder.
 
-Then you can contact me on [Discord](https://discord.com/users/200330865522376704), and send me the lastest log file found in `MSL/logs`.
+Then you can contact me on [Discord](https://discord.com/users/200330865522376704), and send me the latest log file found in `MSL/logs`.
 
 ## See also
 
-*Other mods I've made, WIP.*
+Other mods I've made:
+- Shardpunk:
+    - [Shardpunk-BiggerTeam](https://github.com/remyCases/Shardpunk-BiggerTeam)
+
+- Airship Kingdom Adrift:
+    - [ProductionPanel](https://github.com/remyCases/AKAMod_ProdPanel)
