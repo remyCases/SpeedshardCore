@@ -12,7 +12,7 @@ public class SpeedshardCore : Mod
     public override string Author => "zizani";
     public override string Name => "Speedshard - Core";
     public override string Description => "Core functionalities of Speedshard";
-    public override string Version => "1.0.0.0";
+    public override string Version => "1.1.1.0";
     public override string TargetVersion => "0.8.2.10";
 
     public override void PatchMod()
@@ -42,8 +42,8 @@ public class SpeedshardCore : Mod
     private void MorePointAtStart()
     {
         Msl.LoadGML("gml_GlobalScript_scr_characterMapInit")
-            .MatchBelow("OldXP", 2) // match the 2 lines below the moment I found OldXP
-            .ReplaceBy(ModFiles, "more_point_at_start.gml") // replace by the code in that file
+            .MatchFrom("ds_map_add(global.characterDataMap, \"SP\", 2)") // match the 2 lines below the moment I found OldXP
+            .InsertBelow(ModFiles, "more_point_at_start.gml") // replace by the code in that file
             .Save(); // save it back
     }
     private void Reputation()

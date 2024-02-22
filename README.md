@@ -55,6 +55,9 @@ Then you can contact me on [Discord](https://discord.com/users/20033086552237670
 ## See also
 
 Other mods I've made:
+- Stoneshard:
+    - [Character Creation](https://github.com/remyCases/CharacterCreator)
+
 - Shardpunk:
     - [Shardpunk-BiggerTeam](https://github.com/remyCases/Shardpunk-BiggerTeam)
 
