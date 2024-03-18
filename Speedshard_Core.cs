@@ -87,9 +87,11 @@ public class SpeedshardCore : Mod
         Msl.LoadAssemblyAsString("gml_Object_o_player_Step_0")
             .MatchFromUntil("call.i gml_Script_scr_psychic_accumulation\npopz.v", "popz.v")
             .ReplaceBy(ModFiles, "more_ap_sp_by_level.asm")
+            .MatchFromUntil("pop.v.v local._oldXp", "popz.v")
+            .ReplaceBy("pop.v.v local._oldXp")
             .Save();
     }
-    public void MaxLevel()
+    public static void MaxLevel()
     {
         Msl.LoadAssemblyAsString("gml_Object_o_player_Step_0")
             .MatchFrom("pushi.e 30\ncmp.i.v EQ")
