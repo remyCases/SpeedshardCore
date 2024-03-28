@@ -56,6 +56,6 @@ jobs:
     # Run msp and add to release
     - run: |
         msp -f ${{ github.workspace }} --dll ${{ github.workspace }}/lib
-        gh release create ${{ github.ref_name }} Speedshard_Core.sml
+        gh release create ${{ github.ref_name }} ${{ github.workspace }}/Speedshard_Core.sml
       env:
         GITHUB_TOKEN: ${{ github.TOKEN }}
