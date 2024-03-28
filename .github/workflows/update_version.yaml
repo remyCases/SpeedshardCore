@@ -67,7 +67,10 @@ jobs:
         retention-days: 7
         path: ${{ github.workspace }}/output/*.sml
 
+    - name: Zip for release
+      run: zip SpeedshardCore.zip ${{ github.workspace }}/output/*.sml ${{ github.workspace }}/speedshard.ini
+    
     - name: Create Release
-      run: gh release create ${{ github.ref_name }} ${{ github.workspace }}/output/*.sml
+      run: gh release create ${{ github.ref_name }} SpeedshardCore.zip
       env:
         GITHUB_TOKEN: ${{ github.TOKEN }}
