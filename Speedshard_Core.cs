@@ -12,7 +12,7 @@ public class SpeedshardCore : Mod
     public override string Author => "zizani";
     public override string Name => "Speedshard - Core";
     public override string Description => "Core functionalities of Speedshard";
-    public override string Version => "1.4.10";
+    public override string Version => "v1.4.1";
     public override string TargetVersion => "0.8.2.10";
 
     public override void PatchMod()
