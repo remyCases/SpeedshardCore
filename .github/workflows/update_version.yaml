@@ -51,11 +51,23 @@ jobs:
       uses: actions/setup-dotnet@v4
 
     # Download msp
-    - run: dotnet tool install --global ModShardPacker --version 1.1.0
+    - name: Download MSP
+      run: dotnet tool install --global ModShardPacker --version 1.1.0
     
     # Run msp and add to release
-    - run: |
-        msp -f ${{ github.workspace }} --dll ${{ github.workspace }}/lib
-        gh release create ${{ github.ref_name }} ${{ github.workspace }}/Speedshard_Core.sml
+    - name: Run MSP
+      run: |
+        mkdir -p ${{ github.workspace }}/output
+        msp -f ${{ github.workspace }} -o ${{ github.workspace }}/output --dll ${{ github.workspace }}/lib
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: sml
+        if-no-files-found: error
+        retention-days: 7
+        path: ${{ github.workspace }}/output/*.sml
+
+    - name: Create Release
+      run: gh release create ${{ github.ref_name }} ${{ github.workspace }}/output/*.sml
       env:
         GITHUB_TOKEN: ${{ github.TOKEN }}
