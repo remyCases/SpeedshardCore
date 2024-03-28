@@ -71,6 +71,6 @@ jobs:
       run: zip SpeedshardCore.zip *.sml ${{ github.workspace }}/speedshard.ini
     
     - name: Create Release
-      run: gh release create "Speedshard-Core v$github.ref_name" SpeedshardCore.zip
+      run: gh release create ${{ github.ref_name }} SpeedshardCore.zip
       env:
         GITHUB_TOKEN: ${{ github.TOKEN }}
