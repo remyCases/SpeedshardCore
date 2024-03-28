@@ -18,8 +18,8 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: (?<=\bVersion\s=>\s\")([\d\.]+)
-          replace: ${{ github.ref_name  }}
+          find: \bVersion\s=>\s\"[\d\.]+
+          replace: "Version => \"${{ github.ref_name  }}"
           include: "Speedshard_Core.cs"
 
       - name: Set user info
