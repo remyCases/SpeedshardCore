@@ -54,7 +54,9 @@ jobs:
     - run: dotnet tool install --global ModShardPacker --version 1.0.0
     
     # Run msp and add to release
-    - run:  |
-      msp -f ${{ github.workspace }} --dll ${{ github.workspace }}/lib
-      zip Speedshard_Core.zip ${{ github.workspace }}/Speedshard_Core.sml ${{ github.workspace }}/speedshard.ini
-      gh release upload ${{github.event.release.tag_name}} Speedshard_Core.zip
+    - run: |
+        msp -f ${{ github.workspace }} --dll ${{ github.workspace }}/lib
+        zip Speedshard_Core.zip ${{ github.workspace }}/Speedshard_Core.sml ${{ github.workspace }}/speedshard.ini
+        gh release upload ${{github.event.release.tag_name}} Speedshard_Core.zip
+      env:
+        GITHUB_TOKEN: ${{ github.TOKEN }}
