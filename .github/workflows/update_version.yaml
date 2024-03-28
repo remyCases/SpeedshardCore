@@ -1,0 +1,40 @@
+name: Auto-version on tag
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  set_version:
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "(?<=\bVersion\s=>\s\")([\d\.]+)"
+          replace: ${{ github.ref_name  }}
+          include: "Speedshard_Core.cs"
+
+      - name: Set user info
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Commit Files & Pull
+        run: |
+          git commit -a -m "Updated version with CI."
+          git pull origin main --rebase
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
