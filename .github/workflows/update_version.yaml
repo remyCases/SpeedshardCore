@@ -56,7 +56,6 @@ jobs:
     # Run msp and add to release
     - run: |
         msp -f ${{ github.workspace }} --dll ${{ github.workspace }}/lib
-        zip Speedshard_Core.zip ${{ github.workspace }}/Speedshard_Core.sml ${{ github.workspace }}/speedshard.ini
-        gh release upload ${{github.event.release.tag_name}} Speedshard_Core.zip
+        gh release upload ${{github.event.release.tag_name}} Speedshard_Core.sml
       env:
         GITHUB_TOKEN: ${{ github.TOKEN }}
