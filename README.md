@@ -2,7 +2,7 @@
 
 ## Description
 
-This mod encapsulate the core functionalities of the original Speedshard:
+This mod encapsulates the core functionalities of the original Speedshard:
 - XP/level is reduced, so you will level up faster
 - Reputation gain is increased and now log is accurate
 - SP+1 and AP+1 when create a new character
@@ -57,9 +57,14 @@ Then you can contact me on [Discord](https://discord.com/users/20033086552237670
 Other mods I've made:
 - Stoneshard:
     - [Character Creation](https://github.com/remyCases/CharacterCreator)
+    - [Pelt Durability](https://github.com/remyCases/Stoneshard-PeltDurability)
+    - [MoreSaveSlots](https://github.com/remyCases/Stoneshard-MoreSaveSlots)
+    - [Defeat Scenarios](https://github.com/remyCases/Stoneshard-DefeatScenarios)
 
 - Shardpunk:
     - [Shardpunk-BiggerTeam](https://github.com/remyCases/Shardpunk-BiggerTeam)
+    - [Shardpunk-Faster](https://github.com/remyCases/Shardpunk-Faster)
+    - [Shardpunk-MoreSkillLevels](https://github.com/remyCases/Shardpunk-MoreSkillLevels)
 
 - Airship Kingdom Adrift:
     - [ProductionPanel](https://github.com/remyCases/AKAMod_ProdPanel)
