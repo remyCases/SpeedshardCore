@@ -1,17 +1,2 @@
-ini_open("speedshard.ini")
-global.defaut_gamespeed = ini_read_real("globals", "defaut_gamespeed", 40)
-global.accelerated_gamespeed = ini_read_real("globals", "accelerated_gamespeed", 40)
-global.reputation_modifier = ini_read_real("globals", "reputation_modifier", 1)
-global.water_container_modifier = ini_read_real("globals", "water_container_modifier", 1)
-global.campbed_despawn_days = ini_read_real("globals", "campbed_despawn_days", 1)
-global.hostile_spawnrate_by_level_modifier = ini_read_real("globals", "hostile_spawnrate_by_level_modifier", 31)
-global.neutral_spawnrate_by_level_modifier = ini_read_real("globals", "neutral_spawnrate_by_level_modifier", 31)
-global.xp_by_level_modifier = ini_read_real("globals", "xp_by_level_modifier", 500)
-global.max_level = ini_read_real("globals", "max_level", 30)
-global.interval_level_extra_sp = ini_read_real("globals", "interval_level_extra_sp", 31)
-global.interval_level_extra_ap = ini_read_real("globals", "interval_level_extra_ap", 31)
-global.extra_sp_ap_at_creation = ini_read_real("globals", "extra_sp_ap_at_creation", 0)
-global.quicksave_enable = ini_read_real("globals", "quicksave_enable", 0)
-global.campbed_not_destroyed = ini_read_real("globals", "campbed_not_destroyed", 0)
-ini_close()
+global.defaut_gamespeed = 40
 global.gamespeed = global.defaut_gamespeed

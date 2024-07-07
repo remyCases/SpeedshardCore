@@ -4,7 +4,6 @@
 
 using ModShardLauncher;
 using ModShardLauncher.Mods;
-using System.Collections.Generic;
 
 namespace Speedshard_Core;
 public class SpeedshardCore : Mod
@@ -18,6 +17,22 @@ public class SpeedshardCore : Mod
     public override void PatchMod()
     {
         // ini globals
+        Msl.AddMenu("Core",
+            new UIComponent(name:"Accelerated Gamespeed", associatedGlobal:"accelerated_gamespeed", UIComponentType.Slider, (40, 160), 40),
+            new UIComponent(name:"Reputation Multiplier", associatedGlobal:"reputation_modifier", UIComponentType.Slider, (1, 10), 1),
+            new UIComponent(name:"Water Container Mult", associatedGlobal:"water_container_modifier", UIComponentType.Slider, (1, 10), 1, true),
+            new UIComponent(name:"Days Campbeds Despawn", associatedGlobal:"campbed_despawn_days", UIComponentType.Slider, (1, 10), 1, true),
+            new UIComponent(name:"Hostile Spawnrate By Lvl", associatedGlobal:"hostile_spawnrate_by_level_modifier", UIComponentType.Slider, (1, 41), 41),
+            new UIComponent(name:"Neutral Spawnrate By Lvl", associatedGlobal:"neutral_spawnrate_by_level_modifier", UIComponentType.Slider, (1, 41), 41),
+            new UIComponent(name:"Xp by Level Modifier", associatedGlobal:"xp_by_level_modifier", UIComponentType.Slider, (100, 1000), 500, true),
+            new UIComponent(name:"Max Level", associatedGlobal:"max_level", UIComponentType.Slider, (20, 40), 30, true),
+            new UIComponent(name:"Interval Level Extra SP", associatedGlobal:"interval_level_extra_sp", UIComponentType.Slider, (1, 41), 41, true),
+            new UIComponent(name:"Interval Level Extra AP", associatedGlobal:"interval_level_extra_ap", UIComponentType.Slider, (1, 41), 41, true),
+            new UIComponent(name:"Extra SP&AP At Creation", associatedGlobal:"extra_sp_ap_at_creation", UIComponentType.CheckBox, 0, true),
+            new UIComponent(name:"Quicksave Enable", associatedGlobal:"quicksave_enable", UIComponentType.CheckBox, 0),
+            new UIComponent(name:"Campbed Not Destroyed", associatedGlobal:"campbed_not_destroyed", UIComponentType.CheckBox, 0)
+        );
+
         SpeedshardIni();
         MorePointAtStart();
         Reputation();

@@ -6,16 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-<ItemGroup>
-  <Reference Include="ModShardLauncher">
-    <HintPath>lib\ModShardLauncher.dll</HintPath>
-  </Reference>
-  <Reference Include="UndertaleModLib">
-    <HintPath>lib\UndertaleModLib.dll</HintPath>
-  </Reference>
-  <Reference Include="UndertaleModTool">
-    <HintPath>lib\UndertaleModTool.dll</HintPath>
-  </Reference>
-</ItemGroup>
+  <ItemGroup>
+    <Reference Include="ModShardLauncher">
+      <HintPath>..\..\ModShardLauncher.dll</HintPath>
+    </Reference>
+    <Reference Include="UndertaleModLib">
+      <HintPath>..\..\UndertaleModLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   
 </Project>
