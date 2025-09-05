@@ -1,7 +1,7 @@
 push.s "LVL"
 conv.s.v
 call.i gml_Script_scr_atr(argc=1)
-pushglb.v global.interval_level_extra_sp
+pushglb.v global.interval_level_extra_ap
 mod.v.v
 pushi.e 0
 cmp.i.v EQ

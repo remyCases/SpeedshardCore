@@ -22,7 +22,7 @@ public class SpeedshardCore : Mod
             new UIComponent(name:"Reputation Multiplier", associatedGlobal:"reputation_modifier", UIComponentType.Slider, (1, 10), 1),
             new UIComponent(name:"Water Container Mult", associatedGlobal:"water_container_modifier", UIComponentType.Slider, (1, 10), 1, true),
             new UIComponent(name:"Days Campbeds Despawn", associatedGlobal:"campbed_despawn_days", UIComponentType.Slider, (1, 10), 1, true),
-            new UIComponent(name:"Xp by Level Modifier", associatedGlobal:"xp_by_level_modifier", UIComponentType.Slider, (100, 1000), 500, true),
+            new UIComponent(name:"Xp by Level Modifier", associatedGlobal:"xp_by_level_modifier", UIComponentType.Slider, (50, 500), 250, true),
             new UIComponent(name:"Max Level", associatedGlobal:"max_level", UIComponentType.Slider, (20, 40), 30, true),
             new UIComponent(name:"Interval Level Extra SP", associatedGlobal:"interval_level_extra_sp", UIComponentType.Slider, (1, 41), 41, true),
             new UIComponent(name:"Interval Level Extra AP", associatedGlobal:"interval_level_extra_ap", UIComponentType.Slider, (1, 41), 41, true),
