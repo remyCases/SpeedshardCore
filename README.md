@@ -3,18 +3,18 @@
 ## Description
 
 This mod encapsulates the core functionalities of the original Speedshard:
-- XP/level is reduced, so you will level up faster
-- Reputation gain is increased and now log is accurate
-- SP+1 and AP+1 when create a new character
-- An extra AP and SP every xth level
+
+- Configurable XP/level
+- Configurable Reputation gain
+- Extra AP/SP when creating a new character
+- An extra AP/SP every xth level
 - 4X speed included when pressing F4
-- Charges of water container increased
+- Configurable Charges of water container
 - Campbed can last more days untouched without being destroyed and are not destroyed by use
-- Hostile and Neutral spawn rate scaled with level
 - QuickSave on F5
 - Austerity gives extra turns of vigor
 
-Other functionalities can be found in [Speedshard_Sprint](https://github.com/remyCases/SpeedshardSprint), [Speedshard_Skinning](https://github.com/remyCases/SpeedshardSkinning), [Speedshard_MoneyDungeon](https://github.com/remyCases/SpeedshardMoneyDungeon) and [Speedshard_Stances](https://github.com/remyCases/SpeedshardStances).
+Other functionalities can be found in [Speedshard_Sprint](https://github.com/remyCases/SpeedshardSprint), [Speedshard_MoneyDungeon](https://github.com/remyCases/SpeedshardMoneyDungeon) and [Speedshard_Stances](https://github.com/remyCases/SpeedshardStances).
 
 ## Installation
 
@@ -46,26 +46,27 @@ You can now play the game with the modded version !
 
 ## Troubleshooting
 
-If you encountered some troubles while trying to patch your game, you can contact me on [Discord](https://discord.com/users/200330865522376704), and send me the latest log file found in `MSL/logs`.
+If you encountered some troubles while trying to patch your game, you can contact me on [Discord](https://discord.com/users/1291700720218931213), and send me the latest log file found in `MSL/logs`.
 
 ## See also
 
 Other mods I've made:
+
 - Stoneshard:
-    - [Character Creation](https://github.com/remyCases/CharacterCreator)
-    - [Pelt Durability](https://github.com/remyCases/Stoneshard-PeltDurability)
-    - [MoreSaveSlots](https://github.com/remyCases/Stoneshard-MoreSaveSlots)
-    - [Defeat Scenarios](https://github.com/remyCases/Stoneshard-DefeatScenarios)
-    - [Guaranteed Uniques](https://github.com/remyCases/GuaranteedUniques)
+  - [Character Creation](https://github.com/remyCases/CharacterCreator)
+  - [Pelt Durability](https://github.com/remyCases/Stoneshard-PeltDurability)
+  - [MoreSaveSlots](https://github.com/remyCases/Stoneshard-MoreSaveSlots)
+  - [Defeat Scenarios](https://github.com/remyCases/Stoneshard-DefeatScenarios)
+  - [Guaranteed Uniques](https://github.com/remyCases/GuaranteedUniques)
 
 - Shardpunk:
-    - [Shardpunk-BiggerTeam](https://github.com/remyCases/Shardpunk-BiggerTeam)
-    - [Shardpunk-Faster](https://github.com/remyCases/Shardpunk-Faster)
-    - [Shardpunk-MoreSkillLevels](https://github.com/remyCases/Shardpunk-MoreSkillLevels)
-    - [Shardpunk-RandomParty](https://github.com/remyCases/Shardpunk-RandomParty)
+  - [Shardpunk-BiggerTeam](https://github.com/remyCases/Shardpunk-BiggerTeam)
+  - [Shardpunk-Faster](https://github.com/remyCases/Shardpunk-Faster)
+  - [Shardpunk-MoreSkillLevels](https://github.com/remyCases/Shardpunk-MoreSkillLevels)
+  - [Shardpunk-RandomParty](https://github.com/remyCases/Shardpunk-RandomParty)
 
 - Airship Kingdom Adrift:
-    - [ProductionPanel](https://github.com/remyCases/AKAMod_ProdPanel)
-    
+  - [ProductionPanel](https://github.com/remyCases/AKAMod_ProdPanel)
+
 - The Iron Oath:
-    - [AllyFreeze](https://github.com/remyCases/TheIronOath-AllyFreeze)
+  - [AllyFreeze](https://github.com/remyCases/TheIronOath-AllyFreeze)
